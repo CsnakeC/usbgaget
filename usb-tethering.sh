@@ -113,5 +113,5 @@ setup_usb_tethering_configfs() {
 
 # And we go.
 setup_usb_tethering_configfs
-ip address add 172.16.43.1/24 dev usb0 || true
+ip address add 172.16.44.1/24 dev usb0 || true
 ip link set usb0 up
